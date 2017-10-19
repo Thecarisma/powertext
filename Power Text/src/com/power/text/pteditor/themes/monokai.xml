@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE PowertextTheme SYSTEM "theme.dtd"> -->
+ <!-- http://www.powertext.com -->
+
+<PowerTextTheme version="0.0.1" >
+
+	<!-- Basic-Components. -->
+	<Basic-Components id="0001" >
+		<background>2E2E2E</background>
+		<foreground>D2D2D2</foreground>	
+		<border>null</border>
+	</Basic-Components> 
+
+	<!-- Tab-Component. -->
+	<Tab-Component id="0002" >
+		<selected>2E2E2E</selected>
+		<unselected>2E2E49</unselected>
+		<gradient>false</gradient>
+	</Tab-Component>
+
+	<!-- PTextArea-Editor. -->
+	<PTextArea-Editor id="0003" >
+		<caret>D2D2D2</caret>
+		<selectionbackground>4C4C4C</selectionbackground>
+		<selectionforeground>FF6718</selectionforeground>
+		<currentlinehighlight>383A38</currentlinehighlight>
+		<currentlinehighlight-fade>true</currentlinehighlight-fade>
+		<marginline>394448</marginline>
+		<markallhighlight>383A38</markallhighlight>
+		<markoccurrencehighlight>383A38</markoccurrencehighlight>
+		<markoccurrenceborder>false</markoccurrenceborder>
+		<matchbracketbackground>2E2E2E</matchbracketbackground>
+		<matchbracketforeground>F0F0F0</matchbracketforeground>
+		<matchbracketanimate>true</matchbracketanimate>
+		<hyperlinks>A082BD</hyperlinks>
+	</PTextArea-Editor>
+
+	 <!-- Secondary-Languages. -->
+	<Secondary-Languages id="0004" >
+		<language1>0</language1> <language1bg>333344</language1bg> 
+		<language2>1</language2> <language2bg>223322</language2bg> 
+		<language3>2</language3> <language3bg>332222</language3bg> 
+  	 </Secondary-Languages>
+
+   <!-- Syntax tokens. -->
+   <tokenStyles id="0005" >
+      <style token="IDENTIFIER" fg="F9F9F9"/>
+        <style token="RESERVED_WORD" fg="F92672" bold="false"/>
+        <style token="RESERVED_WORD_2" fg="A6E22E" bold="true"/>
+        <style token="ANNOTATION" fg="FD971F"/>
+        <style token="COMMENT_DOCUMENTATION" fg="878787"/>
+        <style token="COMMENT_EOL" fg="6C6C6C"/>
+        <style token="COMMENT_MULTILINE" fg="93a1a1"/>
+        <style token="COMMENT_KEYWORD" fg="FD971F"/>
+        <style token="COMMENT_MARKUP" fg="FD971F"/>
+        <style token="FUNCTION" fg="52E3F6"/>
+        <style token="DATA_TYPE" fg="52E3F6" bold="true"/>
+        <style token="LITERAL_BOOLEAN" fg="FD971F" bold="true"/>
+        <style token="LITERAL_NUMBER_DECIMAL_INT" fg="AE81FF"/>
+        <style token="LITERAL_NUMBER_FLOAT" fg="AE81FF"/>
+        <style token="LITERAL_NUMBER_HEXADECIMAL" fg="AE81FF"/>
+        <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="E3ED77"/>
+        <style token="LITERAL_CHAR" fg="A6E22E"/>
+        <style token="LITERAL_BACKQUOTE" fg="EC7600"/>
+        <style token="MARKUP_TAG_DELIMITER" fg="F92672"/>
+        <style token="MARKUP_TAG_NAME" fg="ABBFD3" bold="true"/>
+        <style token="MARKUP_TAG_ATTRIBUTE" fg="B3B689"/>
+        <style token="MARKUP_TAG_ATTRIBUTE_VALUE" fg="e1e2cf"/>
+        <style token="MARKUP_COMMENT" fg="878787"/>
+        <style token="MARKUP_DTD" fg="A082BD"/>
+        <style token="MARKUP_PROCESSING_INSTRUCTION" fg="A082BD"/>
+        <style token="MARKUP_CDATA" fg="d5e6f0"/>
+        <style token="MARKUP_CDATA_DELIMITER" fg="FD971F"/>
+        <style token="MARKUP_ENTITY_REFERENCE" fg="F92672"/>
+        <style token="OPERATOR" fg="F92672"/>
+        <style token="PREPROCESSOR" fg="A082BD"/>
+        <style token="REGEX" fg="AE81FF"/>
+        <style token="SEPARATOR" fg="F0F0F0"/>
+        <style token="VARIABLE" fg="FD971F" bold="false"/>
+        <style token="WHITESPACE" fg="F9F9F9"/>
+
+        <style token="ERROR_IDENTIFIER" fg="F9F9F9" bg="d82323"/>
+        <style token="ERROR_NUMBER_FORMAT" fg="F9F9F9" bg="d82323"/>
+        <style token="ERROR_STRING_DOUBLE" fg="F9F9F9" bg="d82323"/>
+        <style token="ERROR_CHAR" fg="F9F9F9" bg="d82323"/>
+   </tokenStyles>
+    
+</PowerTextTheme>

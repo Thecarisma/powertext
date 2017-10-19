@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <!DOCTYPE PowertextTheme SYSTEM "theme.dtd"> -->
+ <!-- http://www.powertext.com -->
+
+<PowerTextTheme version="0.0.1" >
+
+	<!-- Basic-Components. -->
+	<Basic-Components id="0001" >
+		<background>ffffff</background>
+		<foreground>000000</foreground>	
+		<border>null</border>
+	</Basic-Components> 
+
+	<!-- Tab-Component. -->
+	<Tab-Component id="0002" >
+		<selected>ffffff</selected>
+		<unselected>CCDECF</unselected>
+		<gradient>false</gradient>
+	</Tab-Component>
+
+	<!-- PTextArea-Editor. -->
+	<PTextArea-Editor id="0003" >
+		<caret>000000</caret>
+		<selectionbackground>CCFFFF</selectionbackground>
+		<selectionforeground>FF6718</selectionforeground>
+		<currentlinehighlight>ffffd7</currentlinehighlight>
+		<currentlinehighlight-fade>true</currentlinehighlight-fade>
+		<marginline>b0b4b9</marginline>
+		<markallhighlight>ccccff</markallhighlight>
+		<markoccurrencehighlight>ccccff</markoccurrencehighlight>
+		<markoccurrenceborder>false</markoccurrenceborder>
+		<matchbracketbackground>99ccff</matchbracketbackground>
+		<matchbracketforeground>99ccff</matchbracketforeground>
+		<matchbracketanimate>true</matchbracketanimate>
+		<hyperlinks>0000ff</hyperlinks>
+	</PTextArea-Editor>
+
+	 <!-- Secondary-Languages. -->
+	<Secondary-Languages id="0004" >
+		<language1>0</language1> <language1bg>fff0cc</language1bg> 
+		<language2>1</language2> <language2bg>dafeda</language2bg> 
+		<language3>2</language3> <language3bg>ffe0f0</language3bg> 
+  	 </Secondary-Languages>
+
+   <!-- Syntax tokens. -->
+   <tokenStyles id="0005" >
+      <style token="IDENTIFIER" fg="000000" />
+      <style token="RESERVED_WORD" fg="000080" bold="true" />
+      <style token="RESERVED_WORD_2" fg="000080" bold="true" />
+      <style token="ANNOTATION" fg="808000" />
+      <style token="COMMENT_DOCUMENTATION" fg="808080" italic="true" />
+      <style token="COMMENT_EOL" fg="808080" italic="true" />
+      <style token="COMMENT_MULTILINE" fg="808080" italic="true" />
+      <style token="COMMENT_KEYWORD" fg="808080" bold="true" underline="true" italic="true" />
+      <style token="COMMENT_MARKUP" fg="808080" bg="e2ffe2" italic="true" />
+      <style token="DATA_TYPE" fg="000080" bold="true" />
+      <style token="FUNCTION" fg="000000" />
+      <style token="LITERAL_BOOLEAN" fg="000080" bold="true" />
+      <style token="LITERAL_NUMBER_DECIMAL_INT" fg="0000ff" />
+      <style token="LITERAL_NUMBER_FLOAT" fg="0000ff" />
+      <style token="LITERAL_NUMBER_HEXADECIMAL" fg="0000ff" />
+      <style token="LITERAL_STRING_DOUBLE_QUOTE" fg="008000" bold="true" />
+      <style token="LITERAL_CHAR" fg="008000" bold="true" />
+      <style token="LITERAL_BACKQUOTE" fg="008000" bold="true" />
+      <style token="MARKUP_TAG_DELIMITER" fg="000000" bold="true" />
+      <style token="MARKUP_TAG_NAME" fg="000080" bold="true" />
+      <style token="MARKUP_TAG_ATTRIBUTE" fg="0000ff" bold="true" />
+      <style token="MARKUP_TAG_ATTRIBUTE_VALUE" fg="008000" bold="true" />
+      <style token="MARKUP_COMMENT" fg="808080" italic="true"/>
+      <style token="MARKUP_DTD" fg="808080"/>
+      <style token="MARKUP_PROCESSING_INSTRUCTION"  fg="808080"/>
+      <style token="MARKUP_CDATA" fg="cc6600"/>
+      <style token="MARKUP_CDATA_DELIMITER" fg="008080"/>
+      <style token="MARKUP_ENTITY_REFERENCE" fg="008000"/>
+      <style token="OPERATOR" fg="000000" />
+      <style token="PREPROCESSOR" fg="808080" />
+      <style token="REGEX" fg="008040" />
+      <style token="SEPARATOR" fg="000000" />
+      <style token="VARIABLE" fg="810ca8" bold="true" />
+      <style token="WHITESPACE" fg="000000" />
+
+      <style token="ERROR_IDENTIFIER" fg="ff0000" />
+      <style token="ERROR_NUMBER_FORMAT" fg="ff0000" />
+      <style token="ERROR_STRING_DOUBLE" fg="ff0000" />
+      <style token="ERROR_CHAR" fg="ff0000" />
+   </tokenStyles>
+    
+</PowerTextTheme>
