@@ -1,0 +1,8 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\*\shell\Power Text]
+@="Edit with Power Text"
+"icon"="C:\\Users\\Thecarisma\\Documents\\COMPLETED PROJECTS\\JAVA\\POWER TEXT\\Power Text.exe,0"
+
+[HKEY_CLASSES_ROOT\*\shell\Power Text\command]
+@="C:\\Users\\Thecarisma\\Documents\\COMPLETED PROJECTS\\JAVA\\POWER TEXT\\Power Text.exe %1"
