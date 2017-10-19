@@ -1,0 +1,2 @@
+# powertext
+Code and edit like document in Power text which is a simple yet intelligent text editor. Power Text support syntax highlighting for over 15 programming language, it is readilly extensible by creating plugins. Change the look of the editor by choosing from the theme list or create your own theme or import another user theme(XML) into Power Text. It also support auto-complete, syntax highlighting, code templates, spell check and other features. IT REQUIRE JAVA JRE/JDK to run on your system. BUG FIXES and ERROR DISCOVERY is highly appreciated
