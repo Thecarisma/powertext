@@ -18,4 +18,4 @@ Code and edit like document in Power text which is a simple yet intelligent text
  - Monitor File Attributes
  - Document map
  
- ### [DOWNLOAD](https://simple-lang.sourceforge.io/)
+ ### [DOWNLOAD](https://sourceforge.net/projects/power-text/)
